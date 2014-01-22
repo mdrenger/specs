@@ -176,6 +176,10 @@ Name (`name`)
     "Bezirksvertretung 1 (Innenstadt)"
 Kurzname (`short_name`)
 :   _Optional_. Eine zur Anzeige bestimmte, kürzere Form des Namens.
+Anfang (`start`)
+:	_Optional_. Datum an dem das Gremium gebildet wird
+Ende (`end`)
+:   _Optional_. Datum an dem Gremium endet
 Zuletzt geändert (`last_modified`)
 :   Datum und Uhrzeit der letzten Änderung
 
@@ -199,6 +203,8 @@ zugeordnet. Details zu dieser Beziehung werden unter "Drucksache" erläutert.
     "name": "Finanzausschuss",
     "short_name": "FA",
     "body": "1",
+    "start":  "2009-03-29"
+    "end": "2014-03-27"
     "last_modified": "2012-08-16T14:05:27+02:00"
 }
 ~~~~~
