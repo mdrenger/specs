@@ -243,6 +243,8 @@ Fax (`fax`)
 :   _Optional_.
 Anschrift (`address`)
 :   _Optional_. Straße und Hausnummer, Postleitzahl und Ort
+Bild (`image_url`)
+:   _Optional_. URL zu Foto der Person
 Zuletzt geändert (`last_modified`)
 :   Datum und Uhrzeit der letzten Änderung
 
@@ -280,6 +282,7 @@ Beziehungen sind ebenfalls datiert.
     "phone": "+4977777",
     "fax": "+4988888",
     "address": "Musterstraße 5, 11111 Musterort",
+    "image_url: "images/maxmustermann.png"
     "last_modified": "2012-08-16T14:05:27+02:00",
     "organisations": [
         {
